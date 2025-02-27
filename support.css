@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+
+/* Navigation Bar */
+.navbar {
+    background: darkblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar nav ul li {
+    display: inline;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Support Section */
+.support {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.support h1 {
+    color: darkblue;
+    margin-bottom: 10px;
+}
+
+.support p {
+    color: #555;
+}
+
+/* Contact Form */
+.contact-form {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.contact-form h2 {
+    color: darkblue;
+    margin-bottom: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contact-form button {
+    background: darkblue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #2575fc;
+}
+
+/* Support Options */
+.support-options {
+    margin-top: 30px;
+}
+
+.support-options h2 {
+    color: darkblue;
+    margin-bottom: 15px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #f3f4fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.option img {
+    width: 40px;
+}
+
+.option p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.option a {
+    color: #2575fc;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.option a:hover {
+    text-decoration: underline;
+}
+
+/* Back to Home Button */
+.back-home {
+    display: block;
+    text-align: center;
+    background: darkblue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.back-home:hover {
+    background: #2575fc;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}

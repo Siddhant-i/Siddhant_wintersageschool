@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Crypto - CryptoX</title>
+    <link rel="stylesheet" href="exchange.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">CryptoX</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="exchange.html">Exchange</a></li>
+                <li><a href="buycrypto.html">Buy Crypto</a></li>
+                <li><a href="giftcard.html">Gift Cards</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Exchange Crypto Section -->
+    <section class="exchange-crypto">
+        <h1>Exchange Cryptocurrency Instantly</h1>
+        <p>Select the crypto you want to send and receive.</p>
+
+        <div class="exchange-box">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="from-crypto">You Send:</label>
+                    <select id="from-crypto" name="from-crypto" required>
+                        <option value="btc">Bitcoin (BTC)</option>
+                        <option value="eth">Ethereum (ETH)</option>
+                        <option value="ltc">Litecoin (LTC)</option>
+                    </select>
+                    <input type="number" id="send-amount" name="send-amount" placeholder="Enter amount" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="to-crypto">You Get:</label>
+                    <select id="to-crypto" name="to-crypto" required>
+                        <option value="eth">Ethereum (ETH)</option>
+                        <option value="btc">Bitcoin (BTC)</option>
+                        <option value="ltc">Litecoin (LTC)</option>
+                    </select>
+                    <input type="text" id="receive-amount" name="receive-amount" placeholder="Estimated amount" readonly>
+                </div>
+
+                <div class="form-group">
+                    <label for="wallet-address">Your Wallet Address:</label>
+                    <input type="text" id="wallet-address" name="wallet-address" placeholder="Enter recipient's wallet address" required>
+                </div>
+
+                <button type="submit" class="exchange-button">Exchange Now</button>
+            </form>
+        </div>
+
+        <a href="index.html" class="back-home">Back to Home</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 CryptoX. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

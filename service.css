@@ -1,0 +1,114 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Navbar Styles */
+nav {
+
+    background-color: darkblue;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+/* Header Section */
+header .hero {
+    background: blanchedalmond;
+    color: black;
+    text-align: center;
+    padding: 100px 0;
+}
+
+header .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header .hero p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Services Section */
+.services-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.services-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service {
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service h3 {
+    font-size: 1.8rem;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.service p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.service:hover {
+    transform: translateY(-30px);
+}
+
+/* Footer Styles */
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}

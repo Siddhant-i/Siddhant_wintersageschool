@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+/* Navigation Bar */
+.navbar {
+    background:darkblue ;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar nav ul li {
+    display: inline;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* FAQ Section */
+.faq {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq h1 {
+    text-align: center;
+    color: linear-gradient(to right, #6a11cb, #2575fc);
+    margin-bottom: 20px;
+}
+
+/* FAQ Item */
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.faq-item input {
+    display: none;
+}
+
+.faq-question {
+    display: block;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.faq-question:hover {
+    background: #2575fc;
+}
+
+/* Hidden Answer */
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    background: #e3e6f3;
+    padding: 0 12px;
+    border-radius: 5px;
+    transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+
+/* Show Answer when Checkbox is Checked */
+.faq-item input:checked + .faq-question + .faq-answer {
+    max-height: 100px;
+    padding: 12px;
+}
+
+/* Back to Home Button */
+.back-home {
+    display: block;
+    text-align: center;
+    background: darkblue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.back-home:hover {
+    background: #2575fc;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding: 30px;
+    margin-top: 30px;
+}

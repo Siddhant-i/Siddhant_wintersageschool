@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fd;
+}
+
+/* Navigation Bar */
+.navbar {
+    background: darkblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar nav ul li {
+    display: inline;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Privacy Policy Section */
+.privacy-policy {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.privacy-policy h1 {
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 10px;
+}
+
+.privacy-policy p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.privacy-policy h2 {
+    color: #2575fc;
+    margin-top: 20px;
+}
+
+/* Back to Home Button */
+.back-home {
+    display: block;
+    text-align: center;
+    background: darkblue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.back-home:hover {
+    background: #2575fc;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
